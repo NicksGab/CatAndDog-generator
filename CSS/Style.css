@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+#backtop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../IMG/topinho.png);
+  width: 50%;
+  height: 50px;
+  z-index: 10;
+}
+
+#backbottom {
+  position: fixed;
+  bottom: -5px;
+  left: 0;
+  background-image: url(../IMG/baixinho.png);
+  width: 50%;
+  height: 50px;
+  z-index: 10;
+} 
+
+body {
+  background: rgb(252, 236, 239);
+  display: flex;
+}
+
+#realcatcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background: rgb(255, 244, 246);
+  float: left;
+  border-right: 1px solid rgb(248, 63, 94);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+  background: rgba(255, 192, 203, 0.4);
+  border-radius: 300px;
+  padding: 20px;
+  border: 2px solid rgb(248, 63, 94);
+}
+
+.generate_kitty {
+  padding: 7px 25px 7px 25px;
+  border-radius: 15px;
+  background: rgb(250, 181, 192);
+  border: 2px solid rgb(255, 27, 65);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gatinhos {
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid rgb(248, 63, 94);
+  border-radius: 10px; 
+}
+
+
+
+
+
+#backtopdog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-image: url(../IMG/topoDeDog.png);
+  width: 50%;
+  height: 50px;
+  z-index: 10;
+}
+
+#backbottomdog {
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+  background-image: url(../IMG/baixoDog.png);
+  width: 50%;
+  height: 50px;
+  z-index: 10;
+} 
+
+
+
+#realdogcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  float: right;
+  background-image: url(../IMG/FundoDeDog.png);
+  border-left: 1px solid rgb(168, 72, 8);
+}
+
+#realdogcontainer img {
+  height: 170px;
+}
+
+.dogtainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+  background: rgba(245, 183, 125, 0.4);
+  border-radius: 300px;
+  padding: 20px;
+  border: 2px solid rgb(168, 72, 8);
+}
+
+.generate_dog {
+  padding: 7px 25px 7px 25px;
+  border-radius: 15px;
+  background: rgb(245, 183, 125);
+  border: 2px solid rgb(168, 72, 8);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.doguinhos {
+  min-width: 400px;
+  min-height: 300px;
+  border: 2px solid rgb(168, 72, 8);
+  border-radius: 10px; 
+}
